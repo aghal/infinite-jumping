@@ -90,14 +90,13 @@ new Handle:g_cvarBoost_Forward					= INVALID_HANDLE;
 new Handle:g_cvarBoost_Forward_WSAD				= INVALID_HANDLE;
 
 //ConVars runtime saver:
-new String:g_szPlugin_Flag_Infinite[11] 		= "";
-new String:g_szPlugin_Flag_Double[11] 			= "";
-new String:g_szPlugin_Flag_PerfectDouble[11] 	= "";
-new String:g_szPlugin_Flag_GameSlowDowns[11] 	= "";
-new String:g_szPlugin_Flag_ForwardBoost[11] 	= "";
+new String:g_szPlugin_Flag_Infinite[11] 		= "1";
+new String:g_szPlugin_Flag_Double[11] 			= "1";
+new String:g_szPlugin_Flag_PerfectDouble[11] 	= "1";
+new String:g_szPlugin_Flag_GameSlowDowns[11] 	= "1";
 new Float:g_flPlugin_Boost_Initial 				= 0.0;
 new Float:g_flPlugin_Boost_Double 				= 0.0;
-new g_iPlugin_Max_DoubleJumps 					= 0;
+new g_iPlugin_Max_DoubleJumps 					= 1;
 new Float:g_flPlugin_Or_Stamina 				= 0.0;
 new Float:g_flPlugin_Or_SlowDownOnHurt			= 1.0;
 new Float:g_flPlugin_Boost_Forward				= 0.0;
